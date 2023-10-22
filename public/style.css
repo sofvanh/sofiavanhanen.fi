@@ -78,6 +78,10 @@ p {
   max-width: 800px;
 }
 
+.filler {
+  flex: 1;
+}
+
 @keyframes pulse {
   0% {
     transform: scale(1);
