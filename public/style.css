@@ -1,16 +1,21 @@
 :root {
-  background-color: #f7f4f1;
-  color: #46423d;
   font-family: 'Playfair Display';
+  --text-primary: #46423d;
+  --text-secondary: #7a7975;
+  --bg-primary: #f7f4f1;
+  --bg-secondary: #f2eeea;
 }
 
 body {
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
   margin: 0;
   padding: 0;
 }
 
 nav {
-  width: 100%;
+  width: 100vw;
+  /* position: fixed; */
   display: flex;
   orientation: row;
   background-color: #f2eeea;
