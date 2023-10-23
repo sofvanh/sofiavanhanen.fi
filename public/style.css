@@ -4,6 +4,7 @@
   --text-secondary: #7a7975;
   --bg-primary: #f7f4f1;
   --bg-secondary: #f2eeea;
+  --highlight: #f2be89;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
 
 a {
   color: var(--text-primary);
+}
+
+mark {
+  background-color: var(--highlight);
 }
 
 nav {
@@ -58,7 +63,23 @@ p {
 }
 
 .content {
+  padding-top: 5rem;
+}
+
+.hello {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
   padding: 5rem 0rem;
+}
+
+footer {
+  padding: 2rem 0rem;
+}
+
+footer a {
+  text-decoration: none;
+  padding: 0 0.5rem;
 }
 
 .margin-0-16 {
