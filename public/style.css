@@ -13,29 +13,36 @@ body {
   padding: 0;
 }
 
+a {
+  color: var(--text-primary);
+}
+
 nav {
   width: 100vw;
-  /* position: fixed; */
+  height: 5rem;
+  position: fixed;
+  top: 0;
   display: flex;
   orientation: row;
-  background-color: #f2eeea;
+  background-color: var(--bg-secondary);
 }
 
 nav a {
-  color: #46423d;
   text-decoration: none;
+}
+
+nav li a {
   padding: 10px;
   border-radius: 16px;
-  background-color: #f2eeea;
   transition: background-color 0.1s ease-in;
 }
 
-nav a:hover {
+nav li a:hover {
   text-decoration: underline;
-  background-color: #f7f4f1;
+  background-color: var(--bg-primary);
 }
 
-ul {
+nav ul {
   display: flex;
   list-style: none;
 }
@@ -48,6 +55,10 @@ p {
   font-family: 'Inter';
   font-size: 16px;
   line-height: 1.5;
+}
+
+.content {
+  padding: 5rem 0rem;
 }
 
 .margin-0-16 {
