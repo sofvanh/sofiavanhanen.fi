@@ -36,30 +36,16 @@ nav a {
   text-decoration: none;
 }
 
-nav li a {
-  padding: 10px;
-  border-radius: 16px;
-  transition: background-color 0.1s ease-in;
-}
-
-nav li a:hover {
-  text-decoration: underline;
-  background-color: var(--bg-primary);
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-}
-
-li {
-  margin-right: 24px;
-}
-
 p {
   font-family: 'Inter';
   font-size: 16px;
   line-height: 1.5;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-family: 'Playfair Display'
 }
 
 .content {
@@ -84,6 +70,10 @@ footer a {
 
 .margin-0-16 {
   margin: 0 16px;
+}
+
+.padding-8px {
+  padding: 8px;
 }
 
 .nowrap {
@@ -118,10 +108,76 @@ footer a {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(2);
   }
+
   100% {
     transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .nav-list {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+  }
+
+  .menu-button ul {
+    margin: 0;
+    padding: 1rem;
+    list-style: none;
+    position: absolute;
+    transition: all 0.5s ease;
+    right: 0;
+    background-color: var(--bg-secondary);
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .menu-button:hover>ul,
+  .menu-button ul:hover {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .menu-button ul li,
+  .menu-button ul li a {
+    padding: 1rem 0;
+    font-size: 1.3rem;
+  }
+
+  .menu-button ul li a:hover {
+    text-decoration: underline;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  nav li {
+    margin-right: 24px;
+  }
+
+  nav li a {
+    padding: 10px;
+    border-radius: 16px;
+    transition: background-color 0.1s ease-in;
+  }
+
+  nav li a:hover {
+    text-decoration: underline;
+    background-color: var(--bg-primary);
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .menu-button {
+    display: none;
   }
 }
