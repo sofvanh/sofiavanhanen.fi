@@ -32,6 +32,10 @@ nav {
   background-color: var(--bg-secondary);
 }
 
+nav li {
+  font-family: 'Playfair Display'
+}
+
 nav a {
   text-decoration: none;
 }
@@ -46,6 +50,11 @@ button {
   border: none;
   background-color: transparent;
   font-family: 'Playfair Display'
+}
+
+li {
+  font-family: 'Inter';
+  margin: 0.5rem;
 }
 
 .content {
