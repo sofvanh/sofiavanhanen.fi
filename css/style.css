@@ -57,11 +57,6 @@ nav a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-  line-height: 1.5;
-}
-
 button {
   border: none;
   background-color: transparent;
@@ -74,13 +69,6 @@ li {
 
 .content {
   padding-top: 5rem;
-}
-
-.hello {
-  text-align: center;
-  font-size: 32px;
-  font-weight: 700;
-  padding: 5rem 0rem;
 }
 
 .container {
