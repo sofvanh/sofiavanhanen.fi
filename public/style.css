@@ -38,7 +38,7 @@ nav {
   position: fixed;
   top: 0;
   display: flex;
-  orientation: row;
+  flex-direction: row;
   background-color: var(--bg-secondary);
 }
 
@@ -93,15 +93,6 @@ footer a {
   text-decoration: none;
   padding: 0 0.5rem;
 }
-
-/* a img {
-  filter: invert(18%) sepia(95%) saturate(2352%) hue-rotate(320deg) brightness(77%) contrast(97%);
-  transition: filter 0.3s ease;
-}
-
-a img:hover {
-  filter: invert(18%) sepia(95%) saturate(2352%) hue-rotate(320deg) brightness(100%) contrast(97%);
-} */
 
 a img {
   filter: brightness(0) saturate(100%) invert(45%) sepia(11%) saturate(1035%) hue-rotate(295deg) brightness(92%) contrast(87%);
