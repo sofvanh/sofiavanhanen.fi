@@ -8,7 +8,7 @@
 :root {
   font-family: 'ET Book Roman Old Style';
   --text-primary: #6f4f5b;
-  --text-secondary: #916777;
+  --text-secondary: #ba8398;
   --link: #ac2254;
   --link-hover: #e40060;
   --bg-primary: #ffffff;
@@ -94,7 +94,7 @@ footer a {
 }
 
 a img {
-  filter: brightness(0) saturate(100%) invert(45%) sepia(11%) saturate(1035%) hue-rotate(295deg) brightness(92%) contrast(87%);
+  filter: brightness(0) saturate(100%) invert(63%) sepia(11%) saturate(1035%) hue-rotate(295deg) brightness(92%) contrast(87%);
   transition: filter 0.3s ease;
 }
 
