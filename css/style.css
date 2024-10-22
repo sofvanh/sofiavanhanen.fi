@@ -9,10 +9,12 @@
   font-family: 'ET Book Roman Old Style';
   --text-primary: #6f4f5b;
   --text-secondary: #ba8398;
+  --text-dark: #442c35;
   --link: #ac2254;
   --link-hover: #e40060;
   --bg-primary: #ffffff;
   --bg-secondary: #f8f8f8;
+  --hr-color: #f2e2e8;
 }
 
 @keyframes fadeIn {
@@ -31,6 +33,16 @@ body {
   margin: 0;
   padding: 0;
   animation: fadeIn 2s ease;
+}
+
+h1 {
+  font-size: 3rem;
+  color: var(--text-secondary);
+}
+
+h2 {
+  color: var(--text-dark);
+  font-weight: bold;
 }
 
 a {
@@ -67,19 +79,37 @@ li {
   margin: 0.5rem;
 }
 
+hr {
+  border: 0 none;
+  margin: 2rem 0rem;
+  border-top: 1px solid var(--hr-color);
+  border-bottom: 1px solid var(--hr-color);
+  height: 3px;
+  background-color: transparent;
+}
+
 .content {
   padding-top: 5rem;
 }
 
 .container {
-  background-color: var(--bg-secondary);
   margin: 8px 0px;
-  padding: 2px 8px;
+  padding: 2px 0px;
   border-radius: 8px;
 }
 
+.container h3,
+.container p {
+  margin: 0.3rem 0rem;
+}
+
+.container sub {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
 footer {
-  padding: 2rem 0rem;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -88,14 +118,10 @@ footer {
   text-align: center;
 }
 
-footer a {
-  text-decoration: none;
-  padding: 0 0.5rem;
-}
-
 a img {
   filter: brightness(0) saturate(100%) invert(63%) sepia(11%) saturate(1035%) hue-rotate(295deg) brightness(92%) contrast(87%);
   transition: filter 0.3s ease;
+  margin: 0 0.5rem;
 }
 
 a img:hover {
@@ -139,7 +165,10 @@ a img:hover {
   flex: 1;
 }
 
-h1 {
-  font-size: 3rem;
-  color: var(--text-secondary);
+.text-center {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 1rem;
 }
