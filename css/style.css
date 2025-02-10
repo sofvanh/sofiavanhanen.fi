@@ -6,7 +6,7 @@
 }
 
 :root {
-  font-family: 'ET Book Roman Old Style';
+  font-family: 'Petrona', serif;
   --text-primary: #6f4f5b;
   --text-secondary: #ba8398;
   --text-dark: #442c35;
@@ -49,6 +49,7 @@ a {
   color: var(--link);
   text-decoration: none;
   transition: color 0.3s ease;
+  font-weight: bold;
 }
 
 a:hover {
