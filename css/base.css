@@ -1,9 +1,4 @@
-@font-face {
-  font-family: 'ET Book Roman Old Style';
-  src: url('../fonts/et-book.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import "tailwindcss";
 
 :root {
   font-family: 'Petrona', serif;
@@ -15,6 +10,7 @@
   --bg-primary: #ffffff;
   --bg-secondary: #f8f8f8;
   --hr-color: #f2e2e8;
+  font-size: 100%;
 }
 
 @keyframes fadeIn {
@@ -30,17 +26,23 @@
 body {
   color: var(--text-primary);
   background-color: var(--bg-primary);
-  margin: 0;
-  padding: 0;
   animation: fadeIn 2s ease;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   color: var(--text-secondary);
+  font-weight: bold;
 }
 
 h2 {
+  font-size: 1.5rem;
+  color: var(--text-dark);
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.2rem;
   color: var(--text-dark);
   font-weight: bold;
 }
@@ -105,71 +107,17 @@ hr {
 }
 
 .container sub {
-  margin: 0;
+  padding: 1rem 0rem;
   font-size: 1rem;
   color: var(--text-secondary);
 }
 
-footer {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
 a img {
-  filter: brightness(0) saturate(100%) invert(63%) sepia(11%) saturate(1035%) hue-rotate(295deg) brightness(92%) contrast(87%);
+  filter: brightness(0) saturate(100%) invert(63%) sepia(11%) saturate(300%) hue-rotate(295deg) brightness(130%) contrast(87%);
   transition: filter 0.3s ease;
   margin: 0 0.5rem;
 }
 
 a img:hover {
-  filter: brightness(0) saturate(100%) invert(35%) sepia(11%) saturate(1116%) hue-rotate(295deg) brightness(93%) contrast(89%);
-}
-
-
-.margin-16px {
-  margin: 16px;
-}
-
-.padding-8px {
-  padding: 8px;
-}
-
-.nowrap {
-  white-space: nowrap;
-}
-
-.grid {
-  display: grid;
-  place-items: center;
-}
-
-.flex-horizontal {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.width-100 {
-  width: 100%;
-}
-
-.max-width-700 {
-  max-width: 700px;
-}
-
-.filler {
-  flex: 1;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.title {
-  margin-bottom: 1rem;
+  filter: brightness(0) saturate(100%) invert(63%) sepia(11%) saturate(900%) hue-rotate(295deg) brightness(90%) contrast(87%);
 }

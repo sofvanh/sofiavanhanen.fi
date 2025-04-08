@@ -8,10 +8,13 @@
   <meta name="description" content="Hunting for bugs and eutopias">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100..900;1,100..900&display=swap">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="public/cherry-blossom-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="public/cherry-blossom-16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="public/cherry-blossom-180.png">
+  <link rel="stylesheet" type="text/css" href="css/tailwind-output.css">
+
+  <link rel="icon" type="image/x-icon" href="public/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/apple-touch-icon.png">
+  <link rel="manifest" href="public/site.webmanifest">
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.sofiavanhanen.fi/">
@@ -36,11 +39,11 @@
 
 </head>
 
-<body class="grid">
-  <div class="margin-16px max-width-700">
-    <div class="text-center">
-      <h1 class="title">Hi, I'm Sofi</h1>
-      <div class="flex-horizontal justify-center">
+<body class="grid place-items-center">
+  <div class="m-4 sm:m-8 max-w-5xl">
+    <header class="flex flex-col py-8">
+      <h1 class="title pb-8">Hi, I'm Sofi</h1>
+      <div class="flex">
         <a href="https://www.linkedin.com/in/sofia-vanhanen/" title="Sofi on LinkedIn" rel="noopener noreferrer">
           <img src="images/linkedin.png" alt="LinkedIn" width="32" height="32">
         </a>
@@ -51,107 +54,112 @@
           <img src="images/email.png" alt="Email" width="32" height="32">
         </a>
       </div>
-    </div>
+    </header>
     <hr>
-    <div>
-      <h2>About</h2>
-      <p>
-        I'm the co-founder and CTO at <a href="https://mosaic-labs.org/">Mosaic Labs</a>, where I build experimental
-        LLM interfaces to facilitate group deliberation.
-      </p>
-      <p>
-        I've worked as a full-stack engineer in web, mobile, and game projects since 2017.
-      </p>
-      <p>
-        Outside work, I live a nomadic lifestyle, and spend my time exploring communities, embodiment, spirituality, and
-        improvisation in art and life.
-      </p>
-    </div>
+    <main>
+
+      <div class="flex flex-col gap-4 py-8">
+        <h2>About</h2>
+        <p>
+          I'm the co-founder and CTO at <a href="https://mosaic-labs.org/">Mosaic Labs</a>, where I build experimental
+          LLM interfaces to facilitate group deliberation.
+        </p>
+        <p>
+          I've worked as a full-stack engineer in web, mobile, and game projects since 2017.
+        </p>
+        <p>
+          Outside work, I live a nomadic lifestyle, and spend my time exploring communities, embodiment, spirituality,
+          and
+          improvisation in art and life.
+        </p>
+      </div>
+      <hr>
+      <div class="flex flex-col gap-4 py-8">
+        <h2>Current positions</h2>
+        <div class="container">
+          <h3>
+            <a href="https://mosaic-labs.org/">Mosaic Labs</a>
+          </h3>
+          <sub>Co-Founder & CTO</sub>
+          <p>
+            Building interfaces for AI-mediated collective reasoning and deliberation, and conducting research into how
+            AI
+            assistance can help humans collaboratively solve problems, with funding from sources focused on AI risk.
+          </p>
+        </div>
+        <div class="container">
+          <h3>
+            <a href="https://www.aisafety.camp/">AI Safety Camp</a>
+          </h3>
+          <sub>Research Lead</sub>
+          <p>
+            Leading several teams under the Autostructures track in the 2025 AISC.
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="flex flex-col gap-4 py-8">
+        <h2>Project highlights</h2>
+        <div class="container">
+          <h3><a href="https://nexus-tool.com/">Nexus</a>: AI-mediated deliberation</h3>
+          <sub>Technical Lead & System Architect</sub>
+          <p>
+            A platform for group deliberation that uses large language models to help groups understand each
+            other better and surface insights and solutions that wouldn't have been found otherwise.
+          </p>
+        </div>
+        <div class="container">
+          <h3><a href="https://autoblog-560282598197.europe-west1.run.app/">Autoblog</a>: Dynamic content
+            personalization
+          </h3>
+          <sub>Creator & Developer</sub>
+          <p>
+            An interface that helps writers publish authentic thoughts while enabling readers to make sense
+            of them in their unique context. Using AI to dynamically translate and personalize content, Autoblog
+            demonstrates how technology can scale nuance and context in ways previously impossible.
+          </p>
+        </div>
+        <div class="container">
+          <h3><a href="https://pantheon.chat/">Pantheon</a>: AI-facilitated metacognition</h3>
+          <sub>Technical Lead & System Architect</sub>
+          <p>
+            An AI-facilitated metacognition tool exploring new ways to use
+            LLMs to improve human thinking. Intricate, customizable AI characters and a novel, tree-like UI structure
+            empower the user to
+            think and work in new ways.
+          </p>
+        </div>
+        <div class="container">
+          <h3><a href="https://www.existentialhope.com/worlds/beyond-collective-intelligence-cities-of-orare">Cities of
+              Orare</a>: A vision of the future</h3>
+          <sub>Co-Author</sub>
+          <p>
+            A vision of a positive future in 2045, where AI-powered prediction markets and
+            digital democracy amplify collective intelligence, enhancing liberal democracy, economic distribution, and
+            policy-making. Cities of Orare won the <a
+              href="https://www.existentialhope.com/existential-hope-worldbuilding">Foresight Institute Worldbuilding
+              Course</a> of 2024.
+          </p>
+        </div>
+        <div class="container">
+          <h3><a href="https://www.lesswrong.com/posts/ENgwdgdHZ2a6HTWDL/double-crux-bot">Harmony</a>: Multi-user
+            epistemic chatbot</h3>
+          <sub>Technical Lead & System Architect</sub>
+          <p>
+            A Slack- and Discord-based chatbot facilitating users
+            in the <a href="https://www.rationality.org/resources/updates/2016/double-crux">double crux technique</a>,
+            enabling smoother argument resolution. Created as part of
+            the <a href="https://epistea.org/">Epistea</a> fellowship program of 2023.
+          </p>
+        </div>
+      </div>
+    </main>
     <hr>
-    <div>
-      <h2>Current positions</h2>
-      <div class="container">
-        <h3>
-          <a href="https://mosaic-labs.org/">Mosaic Labs</a>
-        </h3>
-        <sub>Co-Founder & CTO</sub>
-        <p>
-          Building interfaces for AI-mediated collective reasoning and deliberation, and conducting research into how AI
-          assistance can help humans collaboratively solve problems, with funding from sources focused on AI risk.
-        </p>
-      </div>
-      <div class="container">
-        <h3>
-          <a href="https://www.aisafety.camp/">AI Safety Camp</a>
-        </h3>
-        <sub>Research Lead</sub>
-        <p>
-          Leading several teams under the Autostructures track in the 2025 AISC.
-        </p>
-      </div>
-    </div>
-    <hr>
-    <div>
-      <h2>Project highlights</h2>
-      <div class="container">
-        <h3><a href="https://nexus-tool.com/">Nexus</a>: AI-mediated deliberation</h3>
-        <sub>Technical Lead & System Architect</sub>
-        <p>
-          A platform for group deliberation that uses large language models to help groups understand each
-          other better and surface insights and solutions that wouldn't have been found otherwise.
-        </p>
-      </div>
-      <div class="container">
-        <h3><a href="https://autoblog-560282598197.europe-west1.run.app/">Autoblog</a>: Dynamic content personalization
-        </h3>
-        <sub>Creator & Developer</sub>
-        <p>
-          An interface that helps writers publish authentic thoughts while enabling readers to make sense
-          of them in their unique context. Using AI to dynamically translate and personalize content, Autoblog
-          demonstrates how technology can scale nuance and context in ways previously impossible.
-        </p>
-      </div>
-      <div class="container">
-        <h3><a href="https://pantheon.chat/">Pantheon</a>: AI-facilitated metacognition</h3>
-        <sub>Technical Lead & System Architect</sub>
-        <p>
-          An AI-facilitated metacognition tool exploring new ways to use
-          LLMs to improve human thinking. Intricate, customizable AI characters and a novel, tree-like UI structure
-          empower the user to
-          think and work in new ways.
-        </p>
-      </div>
-      <div class="container">
-        <h3><a href="https://www.existentialhope.com/worlds/beyond-collective-intelligence-cities-of-orare">Cities of
-            Orare</a>: A vision of the future</h3>
-        <sub>Co-Author</sub>
-        <p>
-          A vision of a positive future in 2045, where AI-powered prediction markets and
-          digital democracy amplify collective intelligence, enhancing liberal democracy, economic distribution, and
-          policy-making. Cities of Orare won the <a
-            href="https://www.existentialhope.com/existential-hope-worldbuilding">Foresight Institute Worldbuilding
-            Course</a> of 2024.
-        </p>
-      </div>
-      <div class="container">
-        <h3><a href="https://www.lesswrong.com/posts/ENgwdgdHZ2a6HTWDL/double-crux-bot">Harmony</a>: Multi-user
-          epistemic chatbot</h3>
-        <sub>Technical Lead & System Architect</sub>
-        <p>
-          A Slack- and Discord-based chatbot facilitating users
-          in the <a href="https://www.rationality.org/resources/updates/2016/double-crux">double crux technique</a>,
-          enabling smoother argument resolution. Created as part of
-          the <a href="https://epistea.org/">Epistea</a> fellowship program of 2023.
-        </p>
-      </div>
-    </div>
-    <hr>
-    <footer>
+    <footer class="flex justify-between w-full py-16">
       <p class="nowrap">&copy;
         <script>document.write(new Date().getFullYear());</script> Sofia Vanhanen
       </p>
-      <div class="filler"></div>
-      <div>
+      <div class="flex">
         <a href="https://www.linkedin.com/in/sofia-vanhanen/" title="Sofi on LinkedIn" rel="noopener noreferrer">
           <img src="images/linkedin.png" alt="LinkedIn" width="24" height="24">
         </a>

@@ -1,3 +1,7 @@
 Just my website, live at https://sofiavanhanen.fi
 
-I decided to write a plain html+css page as an exercise in simplicity ⚪️
+Plain HTML + Tailwind
+
+#### Running Tailwind
+
+`npx @tailwindcss/cli -i ./src/base.css -o ./src/tailwind-output.css --watch`
