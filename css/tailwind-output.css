@@ -313,7 +313,8 @@ hr {
   margin: 0.3rem 0rem;
 }
 .container sub {
-  padding: 1rem 0rem;
+  display: block;
+  margin: 0rem 0rem 2rem 0rem;
   font-size: 1rem;
   color: var(--text-secondary);
 }
