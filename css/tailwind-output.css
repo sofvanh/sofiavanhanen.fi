@@ -362,6 +362,66 @@ a img {
 a img:hover {
   filter: brightness(0) saturate(100%) invert(63%) sepia(11%) saturate(900%) hue-rotate(295deg) brightness(90%) contrast(87%);
 }
+.tag-llm {
+  background-color: #E8E6FF;
+  color: #5A4D9C;
+}
+.tag-deliberation {
+  background-color: #FFE6E6;
+  color: #9C4D4D;
+}
+.tag-group-epistemics {
+  background-color: #FFEDE6;
+  color: #9C614D;
+}
+.tag-platform {
+  background-color: #E6F0FF;
+  color: #4D7A9C;
+}
+.tag-democracy {
+  background-color: #ffe6ea;
+  color: #99394d;
+}
+.tag-future {
+  background-color: #E6FFFA;
+  color: #4D9C8C;
+}
+.tag-adaptive {
+  background-color: #ffe6f7;
+  color: #99397b;
+}
+.tag-worldbuild {
+  background-color: #E6FFF0;
+  color: #4D9C7A;
+}
+.tag-award {
+  background-color: #F7F2E0;
+  color: #8C7A40;
+}
+.tag-react {
+  background-color: #E6F3FF;
+  color: #4D7A9C;
+}
+.tag-next {
+  background-color: #E6E8FF;
+  color: #4D5A9C;
+}
+.tag-client {
+  background-color: #E6F0FF;
+  color: #4D7A9C;
+}
+.tag-bot {
+  background-color: #F0F0FF;
+  color: #5A5A9C;
+}
+.tag-tools {
+  background-color: #FFE6F0;
+  color: #9C4D7A;
+}
+.tag-facilitation {
+  background-color: #FFE6E6;
+  color: #9C4D4D;
+}
 @property --tw-tracking {
   syntax: "*";
   inherits: false;
