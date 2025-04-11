@@ -4,4 +4,4 @@ Plain HTML + Tailwind
 
 #### Running Tailwind
 
-`npx @tailwindcss/cli -i ./src/base.css -o ./src/tailwind-output.css --watch`
+`npx @tailwindcss/cli -i ./css/base.css -o ./css/tailwind-output.css --watch`
