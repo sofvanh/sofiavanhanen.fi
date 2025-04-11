@@ -207,6 +207,9 @@
   .max-w-5xl {
     max-width: var(--container-5xl);
   }
+  .max-w-prose {
+    max-width: 65ch;
+  }
   .flex-col {
     flex-direction: column;
   }
