@@ -210,12 +210,6 @@
   .max-w-prose {
     max-width: 65ch;
   }
-  .list-inside {
-    list-style-position: inside;
-  }
-  .list-disc {
-    list-style-type: disc;
-  }
   .flex-col {
     flex-direction: column;
   }
@@ -311,12 +305,16 @@ h3 {
 }
 a {
   color: var(--link);
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-decoration-color: var(--link);
+  text-underline-offset: 0.23rem;
   transition: color 0.3s ease;
   font-weight: bold;
 }
 a:hover {
   color: var(--link-hover);
+  text-decoration-color: var(--link-hover);
 }
 nav {
   width: 100vw;
