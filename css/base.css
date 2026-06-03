@@ -5,23 +5,7 @@
   color: var(--color-stone-800);
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(6px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 @layer base {
-  body {
-    animation: fadeIn 1.6s cubic-bezier(0.23, 1, 0.32, 1);
-  }
-
   a {
     color: var(--color-stone-900);
     text-decoration: underline;
